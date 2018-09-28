@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE714015215DC9B600DC6A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE714014215DC9B600DC6A34 /* main.m */; };
+		FE714032215DC9F800DC6A34 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71401D215DC9F800DC6A34 /* FMDatabaseQueue.m */; };
+		FE714033215DC9F800DC6A34 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE714020215DC9F800DC6A34 /* FMDatabaseAdditions.m */; };
+		FE714034215DC9F800DC6A34 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FE714021215DC9F800DC6A34 /* FMDatabase.m */; };
+		FE714035215DC9F800DC6A34 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE714025215DC9F800DC6A34 /* FMDatabasePool.m */; };
+		FE714036215DC9F800DC6A34 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE714026215DC9F800DC6A34 /* FMResultSet.m */; };
+		FE71403C215DCDA500DC6A34 /* XMLDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71403B215DCDA500DC6A34 /* XMLDecode.m */; };
+		FE71404B215DDADC00DC6A34 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71404A215DDADC00DC6A34 /* DBManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE71400F215DC9B600DC6A34 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE714011215DC9B600DC6A34 /* LocationXMLToSqlite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocationXMLToSqlite; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE714014215DC9B600DC6A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE71401C215DC9F800DC6A34 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FE71401D215DC9F800DC6A34 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FE71401E215DC9F800DC6A34 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FE71401F215DC9F800DC6A34 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FE714020215DC9F800DC6A34 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FE714021215DC9F800DC6A34 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FE714022215DC9F800DC6A34 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FE714023215DC9F800DC6A34 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FE714024215DC9F800DC6A34 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FE714025215DC9F800DC6A34 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FE714026215DC9F800DC6A34 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FE71403A215DCDA500DC6A34 /* XMLDecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLDecode.h; sourceTree = "<group>"; };
+		FE71403B215DCDA500DC6A34 /* XMLDecode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLDecode.m; sourceTree = "<group>"; };
+		FE714049215DDADC00DC6A34 /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		FE71404A215DDADC00DC6A34 /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE71400E215DC9B600DC6A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE714008215DC9B600DC6A34 = {
+			isa = PBXGroup;
+			children = (
+				FE714013215DC9B600DC6A34 /* LocationXMLToSqlite */,
+				FE714012215DC9B600DC6A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE714012215DC9B600DC6A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE714011215DC9B600DC6A34 /* LocationXMLToSqlite */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE714013215DC9B600DC6A34 /* LocationXMLToSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				FE71401B215DC9F800DC6A34 /* fmdb */,
+				FE714014215DC9B600DC6A34 /* main.m */,
+				FE71403A215DCDA500DC6A34 /* XMLDecode.h */,
+				FE71403B215DCDA500DC6A34 /* XMLDecode.m */,
+				FE714049215DDADC00DC6A34 /* DBManager.h */,
+				FE71404A215DDADC00DC6A34 /* DBManager.m */,
+			);
+			path = LocationXMLToSqlite;
+			sourceTree = "<group>";
+		};
+		FE71401B215DC9F800DC6A34 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				FE71401C215DC9F800DC6A34 /* FMDatabase.h */,
+				FE71401D215DC9F800DC6A34 /* FMDatabaseQueue.m */,
+				FE71401E215DC9F800DC6A34 /* FMResultSet.h */,
+				FE71401F215DC9F800DC6A34 /* FMDatabasePool.h */,
+				FE714020215DC9F800DC6A34 /* FMDatabaseAdditions.m */,
+				FE714021215DC9F800DC6A34 /* FMDatabase.m */,
+				FE714022215DC9F800DC6A34 /* FMDatabaseQueue.h */,
+				FE714023215DC9F800DC6A34 /* FMDB.h */,
+				FE714024215DC9F800DC6A34 /* FMDatabaseAdditions.h */,
+				FE714025215DC9F800DC6A34 /* FMDatabasePool.m */,
+				FE714026215DC9F800DC6A34 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE714010215DC9B600DC6A34 /* LocationXMLToSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE714018215DC9B600DC6A34 /* Build configuration list for PBXNativeTarget "LocationXMLToSqlite" */;
+			buildPhases = (
+				FE71400D215DC9B600DC6A34 /* Sources */,
+				FE71400E215DC9B600DC6A34 /* Frameworks */,
+				FE71400F215DC9B600DC6A34 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationXMLToSqlite;
+			productName = LocationXMLToSqlite;
+			productReference = FE714011215DC9B600DC6A34 /* LocationXMLToSqlite */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE714009215DC9B600DC6A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "龚杰洪";
+				TargetAttributes = {
+					FE714010215DC9B600DC6A34 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = FE71400C215DC9B600DC6A34 /* Build configuration list for PBXProject "LocationXMLToSqlite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE714008215DC9B600DC6A34;
+			productRefGroup = FE714012215DC9B600DC6A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE714010215DC9B600DC6A34 /* LocationXMLToSqlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE71400D215DC9B600DC6A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE71403C215DCDA500DC6A34 /* XMLDecode.m in Sources */,
+				FE714036215DC9F800DC6A34 /* FMResultSet.m in Sources */,
+				FE714015215DC9B600DC6A34 /* main.m in Sources */,
+				FE714032215DC9F800DC6A34 /* FMDatabaseQueue.m in Sources */,
+				FE714035215DC9F800DC6A34 /* FMDatabasePool.m in Sources */,
+				FE714033215DC9F800DC6A34 /* FMDatabaseAdditions.m in Sources */,
+				FE714034215DC9F800DC6A34 /* FMDatabase.m in Sources */,
+				FE71404B215DDADC00DC6A34 /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE714016215DC9B600DC6A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE714017215DC9B600DC6A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE714019215DC9B600DC6A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE71401A215DC9B600DC6A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE71400C215DC9B600DC6A34 /* Build configuration list for PBXProject "LocationXMLToSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE714016215DC9B600DC6A34 /* Debug */,
+				FE714017215DC9B600DC6A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE714018215DC9B600DC6A34 /* Build configuration list for PBXNativeTarget "LocationXMLToSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE714019215DC9B600DC6A34 /* Debug */,
+				FE71401A215DC9B600DC6A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE714009215DC9B600DC6A34 /* Project object */;
+}
