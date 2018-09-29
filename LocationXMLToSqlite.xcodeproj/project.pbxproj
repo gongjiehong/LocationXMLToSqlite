@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE644EDF215F1B0800B1A92D /* LGPinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = FE644EDB215F1B0700B1A92D /* LGPinyin.c */; };
+		FE644EE0215F1B0800B1A92D /* LGPinyinConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE644EDE215F1B0700B1A92D /* LGPinyinConvertTool.m */; };
 		FE714015215DC9B600DC6A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE714014215DC9B600DC6A34 /* main.m */; };
 		FE714032215DC9F800DC6A34 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71401D215DC9F800DC6A34 /* FMDatabaseQueue.m */; };
 		FE714033215DC9F800DC6A34 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE714020215DC9F800DC6A34 /* FMDatabaseAdditions.m */; };
@@ -30,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE644EDB215F1B0700B1A92D /* LGPinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LGPinyin.c; sourceTree = "<group>"; };
+		FE644EDC215F1B0700B1A92D /* LGPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPinyin.h; sourceTree = "<group>"; };
+		FE644EDD215F1B0700B1A92D /* LGPinyinConvertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPinyinConvertTool.h; sourceTree = "<group>"; };
+		FE644EDE215F1B0700B1A92D /* LGPinyinConvertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPinyinConvertTool.m; sourceTree = "<group>"; };
 		FE714011215DC9B600DC6A34 /* LocationXMLToSqlite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocationXMLToSqlite; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE714014215DC9B600DC6A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE71401C215DC9F800DC6A34 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -81,6 +87,10 @@
 			children = (
 				FE71401B215DC9F800DC6A34 /* fmdb */,
 				FE714014215DC9B600DC6A34 /* main.m */,
+				FE644EDB215F1B0700B1A92D /* LGPinyin.c */,
+				FE644EDC215F1B0700B1A92D /* LGPinyin.h */,
+				FE644EDD215F1B0700B1A92D /* LGPinyinConvertTool.h */,
+				FE644EDE215F1B0700B1A92D /* LGPinyinConvertTool.m */,
 				FE71403A215DCDA500DC6A34 /* XMLDecode.h */,
 				FE71403B215DCDA500DC6A34 /* XMLDecode.m */,
 				FE714049215DDADC00DC6A34 /* DBManager.h */,
@@ -166,9 +176,11 @@
 				FE71403C215DCDA500DC6A34 /* XMLDecode.m in Sources */,
 				FE714036215DC9F800DC6A34 /* FMResultSet.m in Sources */,
 				FE714015215DC9B600DC6A34 /* main.m in Sources */,
+				FE644EDF215F1B0800B1A92D /* LGPinyin.c in Sources */,
 				FE714032215DC9F800DC6A34 /* FMDatabaseQueue.m in Sources */,
 				FE714035215DC9F800DC6A34 /* FMDatabasePool.m in Sources */,
 				FE714033215DC9F800DC6A34 /* FMDatabaseAdditions.m in Sources */,
+				FE644EE0215F1B0800B1A92D /* LGPinyinConvertTool.m in Sources */,
 				FE714034215DC9F800DC6A34 /* FMDatabase.m in Sources */,
 				FE71404B215DDADC00DC6A34 /* DBManager.m in Sources */,
 			);

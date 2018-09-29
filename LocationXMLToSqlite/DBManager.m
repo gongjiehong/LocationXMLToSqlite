@@ -7,6 +7,7 @@
 //
 
 #import "DBManager.h"
+#import "LGPinyinConvertTool.h"
 
 @implementation DBManager
 
@@ -96,7 +97,7 @@
 
 - (void)createTable
 {
-    NSString *createSQL = @"CREATE TABLE world_cities_cn (country TEXT, state TEXT, city TEXT)";
+    NSString *createSQL = @"CREATE TABLE world_cities_cn (country TEXT, state TEXT, city TEXT, country_index TEXT, state_index TEXT, city_index TEXT)";
     BOOL result = [self insertDataWithSQL:createSQL];
     if (result) {
         NSLog(@"create world_cities success");
@@ -106,7 +107,15 @@
 - (BOOL)insertLocationInfo:(NSArray *)infos
 {
     for (NSDictionary *info in infos) {
-        NSString *insertSql = [NSString stringWithFormat:@"insert into world_cities_cn (country, state, city) values('%@', '%@', '%@')", info[@"country"], info[@"state"], info[@"city"] ];
+        NSString *country = info[@"country"];
+        NSString *state = info[@"state"];
+        NSString *city = info[@"city"];
+        
+        NSString *country_index = [[country substringToIndex:1] lg_uppercasePinYinFirstLetter];
+        NSString *state_index = [[state substringToIndex:1] lg_uppercasePinYinFirstLetter];
+        NSString *city_index = [[city substringToIndex:1] lg_uppercasePinYinFirstLetter];
+        
+        NSString *insertSql = [NSString stringWithFormat:@"insert into world_cities_cn (country, state, city, country_index, state_index, city_index) values('%@', '%@', '%@', '%@', '%@', '%@')", country, state, city, country_index, state_index, city_index];
         if ([self insertDataWithSQL:insertSql]) {
 //            NSLog(@"insert success");
         }
